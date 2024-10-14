@@ -96,11 +96,11 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: Binaries 1
-        path: SymX\bin\Debug\net6.0-windows\
+        path: SymX\bin\Debug\net6.0\
         compression-level: 9
     - name: Upload build artifacts
       uses: actions/upload-artifact@v3
       with:
         name: Binaries 2
-        path: SymXUI\bin\Release\net6.0-windows\
+        path: SymXUI\bin\Debug\net6.0\
         compression-level: 9
