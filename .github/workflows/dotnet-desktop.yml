@@ -109,5 +109,5 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: Binaries 2
-        path: SymX-UI\bin\Debug\net6.0\
+        path: SymX-UI\bin\Debug\net6.0-windows\
         compression-level: 9
